@@ -56,15 +56,7 @@ Neste projeto, o listener de clique é adicionado à lista #lista. A propriedade
 
 Essa técnica reduz a quantidade de listeners, facilita a manutenção do código e permite que elementos criados dinamicamente também respondam aos eventos sem a necessidade de registrar um novo listener para cada item.
 
-Como executar
-Baixe ou clone este repositório.
-Abra o arquivo index.html no navegador.
-Pressione F12 para abrir as ferramentas do desenvolvedor.
-Acesse a aba Console para visualizar os resultados.
-Teste o botão, o campo de nome e o formulário de tarefas.
-Autor
-
-Seu Nome
+Clayverth
 
 Objetivo
 
