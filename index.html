@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Semana 04 - Arrays, DOM e Eventos</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 800px;
+            margin: 30px auto;
+            padding: 20px;
+            line-height: 1.6;
+        }
+
+        button, input {
+            padding: 8px;
+            margin: 5px 0;
+        }
+
+        li {
+            cursor: pointer;
+            padding: 5px;
+        }
+
+        .destaque {
+            background-color: yellow;
+            font-weight: bold;
+        }
+
+        .feito {
+            text-decoration: line-through;
+            color: green;
+        }
+    </style>
+
+    <script src="app.js" defer></script>
+</head>
+<body>
+    <h1 id="titulo">Blog</h1>
+
+
+    <h2>Manipulação do DOM</h2>
+
+    <p class="texto">Aprendendo JavaScript.</p>
+    <p class="texto">Praticando arrays e metodos.</p>
+    <p class="texto">Estudando o DOM e eventos.</p>
+
+    <h2>Lista de itens e tarefas</h2>
+
+    <ul id="lista">
+        <li>Primeiro item</li>
+        <li>Segundo item</li>
+        <li>Item inicial para testar eventos</li>
+    </ul>
+
+    <h2>Eventos</h2>
+
+    <button id="botao">Clique aqui</button>
+
+    <br>
+
+    <label for="nome">Digite seu nome:</label>
+    <input type="text" id="nome" placeholder="Seu nome">
+
+    <h2>Adicionar tarefa</h2>
+
+    <form id="formulario">
+        <label for="tarefa">Nova tarefa:</label>
+        <input
+            type="text"
+            id="tarefa"
+            placeholder="Digite uma tarefa"
+        >
+        <button type="submit">Adicionar</button>
+    </form>
+</body>
+</html>
